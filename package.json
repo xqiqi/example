@@ -6,6 +6,7 @@
   "author": "Elaine Li <445720245@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@digitalroute/cz-conventional-changelog-for-jira": "^7.1.0",
     "commitizen": "^4.2.4",
     "commitizen-emoji": "^1.0.5",
     "cz-conventional-changelog": "3.3.0",
@@ -13,7 +14,8 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/commitizen-emoji"
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira",
+      "jiraOptional": true
     }
   },
   "scripts": {
