@@ -7,12 +7,13 @@
   "license": "MIT",
   "devDependencies": {
     "commitizen": "^4.2.4",
+    "commitizen-emoji": "^1.0.5",
     "cz-conventional-changelog": "3.3.0",
     "husky": "^7.0.4"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/commitizen-emoji"
     }
   },
   "scripts": {
